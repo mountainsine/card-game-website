@@ -57,7 +57,7 @@
   width: 100%;
 }
 
-#decks td, #deck th {
+#customers td, #deck th {
   border: 1px solid #ddd;
   padding: 8px;
 }

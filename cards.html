@@ -1,146 +1,227 @@
+<!DOCTYPE html>
 <html>
     <header> Keyforge Personal Achievements
-    <div class="navbar" id="topNavBar">
-        <a href="index.html">Home</a>
-        <a href="decks.html">Decks</a>
-        <a href="cards.html">Cards</a>
-        <a href="learn.html">Learn</a>
-        </div>
-        <link rel="stylesheet" href="achievements.css">
-    </header>
-    
+        <div class="navbar" id="topNavBar">
+            <a href="index.html">Home</a>
+            <a href="decks.html">Decks</a>
+            <a href="cards.html">Cards</a>
+            <a href="learn.html">Learn</a>
+            </div>
+            <link rel="stylesheet" href="achievements.css">
+        </header>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <body>
-        <div class="buttonMenu">
-            <br>
-            <br>
-            <button class="btn success">Success</button>
-            <button class="btn info">Info</button>
-            <button class="btn warning">Warning</button>
-            <button class="btn danger">Danger</button>
-            <button class="btn default">Default</button>
-        </div>
-        <div class="main">
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
 
-            <h1>Keyforge Decks</h1>
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
 
-            <h2>Tier 0</h2>
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
 
-            <p>Some text some text some text some text..</p>
+.row {
+  margin: 10px -16px;
+}
 
-            <h2>Tier 1 </h2>
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
 
-            <p>Some text some text some text some text..</p>
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
 
-            <p>Some text some text some text some text..</p>
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-            <p>Some text some text some text some text..</p>
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
 
-            <h2>Tier 2</h2>
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
 
-            <p>Some text some text some text some text..</p>
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
 
-            <p>Some text some text some text some text..</p>
+.btn:hover {
+  background-color: #ddd;
+}
 
-            <p>Some text some text some text some text..</p>
-            The navigation bar will stay at the top of the page while scrolling</h2>
-            <p>Some text some text some text some text..</p>
-            <br>
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
 
-            <h2>Tier 3</h2>
+<!-- MAIN (Center website) -->
+<div class="main">
 
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
+<h1>MYLOGO.COM</h1>
+<hr>
 
-            <h2>Collectible</h2>
+<h2>PORTFOLIO</h2>
 
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div>
 
-            <h2>Reversal</h2>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="w3images/mountains.jpg" alt="Mountains" style="width:100%">
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <img src="w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
 
 
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-                        <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-            <p>Some text some text some text some text..</p>
-          </div>
-    </body>
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
-    <script src="main.js">
-    </script> 
+</body>
 </html>
