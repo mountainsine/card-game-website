@@ -1,5 +1,6 @@
     // alert( "Hello, world!" );
 
+
     // Create an array of Movie monsters
 const KAIJU = [
     { name: 'Godzilla', tier: 1 },
@@ -11,9 +12,8 @@ const KAIJU = [
     { name: 'Rodan', tier: 4 },
     ]
 
-    console.log(monster.name)
-    push(monster.name);
-;
 
 
-  
+var tag_id = document.getElementById('welcomeMessage');
+tag_id.innerHTML = '&#x2705 Welcome to Keyforaging.com! A playground for keyforge thoughts and ideas!';
+

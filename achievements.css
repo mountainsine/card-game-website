@@ -5,20 +5,31 @@
     cursor: pointer; /* Add a pointer cursor on mouse-over */
   }
   
-  .success {background-color: #04AA6D;} /* Green */
-  .success:hover {background-color: #46a049;}
-  
-  .info {background-color: #2196F3;} /* Blue */
-  .info:hover {background: #0b7dda;}
-  
-  .warning {background-color: #ff9800;} /* Orange */
-  .warning:hover {background: #e68a00;}
-  
-  .danger {background-color: #f44336;} /* Red */
-  .danger:hover {background: #da190b;}
-  
-  .default {background-color: #e7e7e7; color: black;} /* Gray */
-  .default:hover {background: #ddd;}
+    /* unique sub navigation bar */
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */
+.default:hover {background: #ddd;
+}
+
+ /* photo gallery menu */
+.subBtn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #333; /* Green */
+}
 
 
   /* The navigation bar */
@@ -57,7 +68,7 @@
   width: 100%;
 }
 
-#customers td, #deck th {
+#decks td, #deck th {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -76,4 +87,60 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website
+.main {
+  max-width: 1000px;
+  margin: auto;
+} */
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
 }
