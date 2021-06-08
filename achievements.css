@@ -144,3 +144,7 @@ h1 {
 .show {
   display: block;
 }
+
+img {
+  border: 3px solid black;
+}

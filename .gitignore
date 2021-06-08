@@ -54,7 +54,8 @@ dkms.conf
 # Developer Playground
 */Playground/
 */img/
-*/src/
+*img/
+*src/
 
 # Mac Metadata
 *.DS_Store
