@@ -18,8 +18,8 @@
 .danger {background-color: #f44336;} /* Red */
 .danger:hover {background: #da190b;}
 
-.default {background-color: #e7e7e7; color: black;} /* Gray */
-.default:hover {background: #ddd;
+.default {background-color: #ffffff; color: black;} /* Gray */
+.default:hover {background: #ffffff;
 }
 
  /* photo gallery menu */
@@ -94,7 +94,7 @@ body {
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 20px;
   font-family: Arial;
 }
@@ -112,6 +112,7 @@ h1 {
 
 .row {
   margin: 10px -16px;
+
 }
 
 /* Add padding BETWEEN each column */
@@ -145,6 +146,26 @@ h1 {
   display: block;
 }
 
-img {
+.img {
   border: 3px solid black;
 }
+
+.imgSmall {
+  border: 0px;
+  max-height: 40px;
+}
+
+.bigEmoji{
+  font-size: 30px;
+  
+}
+
+.bigEmojiText{
+  font-size: 25px;
+}
+
+.infoGraphicRender {
+  border:0px;
+  max-width: 600px;
+}
+
