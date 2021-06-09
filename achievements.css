@@ -146,9 +146,9 @@ h1 {
   display: block;
 }
 
-.img {
+/* .img {
   border: 3px solid black;
-}
+} */
 
 .imgSmall {
   border: 0px;
@@ -165,7 +165,7 @@ h1 {
 }
 
 .infoGraphicRender {
-  border:0px;
+  border: 0px;
   max-width: 600px;
 }
 
