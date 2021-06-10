@@ -13,7 +13,3 @@ const KAIJU = [
     ]
 
 
-
-var tag_id = document.getElementById('welcomeMessage');
-tag_id.innerHTML = '&#x2705 Welcome to Keyforaging.com! A playground for keyforge thoughts and ideas!';
-
