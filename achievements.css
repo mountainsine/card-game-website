@@ -7,8 +7,8 @@
   
   
 /* unique sub navigation bar */
-.success {background-color: #04AA6D;} /* Green */
-.success:hover {background-color: #46a049;}
+.btn {background-color: #04AA6D;} /* Green */
+.btn:hover {background-color: #46a049;}
 
 .info {background-color: #2196F3;} /* Blue */
 .info:hover {background: #0b7dda;}
@@ -33,8 +33,9 @@
 }
 
 
-  /* The navigation bar */
+/* The navigation bar */
 .navbar {
+  margin-left: -8px;
   overflow: hidden;
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
@@ -96,7 +97,6 @@ body {
 
 body {
   background-color: #ffffff;
-  padding: 20px;
   font-family: Arial;
 }
 
