@@ -5,7 +5,8 @@
     cursor: pointer; /* Add a pointer cursor on mouse-over */
   }
   
-    /* unique sub navigation bar */
+  
+/* unique sub navigation bar */
 .success {background-color: #04AA6D;} /* Green */
 .success:hover {background-color: #46a049;}
 
@@ -169,8 +170,3 @@ h1 {
   max-width: 600px;
 }
 
-
-
-.aBetterBody {
-  
-}
