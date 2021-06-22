@@ -62,6 +62,9 @@
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+  /* text-align: center; */
+  max-width: 800px;
+  padding: 20px;
 }
 
 #decks {
@@ -98,6 +101,7 @@ body {
 body {
   background-color: #ffffff;
   font-family: Arial;
+  margin: auto;
 }
 
 /* Center website
