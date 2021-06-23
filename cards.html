@@ -10,7 +10,7 @@
       <a href="cards.html">CARDS</a>
       <a href="learn.html">LEARN</a>
       </div>
-      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="achievements.css">
       
   </head>
 <body>
@@ -27,20 +27,27 @@
 <!-- MAIN (Center website) -->
   <div class="main">
 
-  <h2>CARDS</h2>
+  <h2>PORTFOLIO</h2>
+
+  <div id="myBtnContainer">
+    <button class="subBtn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="subBtn" onclick="filterSelection('nature')"> MARS</button>
+    <button class="subBtn" onclick="filterSelection('cars')"> LOGOS</button>
+    <button class="subBtn" onclick="filterSelection('people')"> SHADOWS</button>
+  </div>
 
   <!-- Portfolio Gallery Grid -->
   <div class="row">
     <div class="column nature">
       <div class="content">
-        <img src="w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <img src="img/mountains.jpg" alt="Mountains" style="width:100%">
         <h4>Mountains</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
     </div>
     <div class="column nature">
       <div class="content">
-      <img src="w3images/lights.jpg" alt="Lights" style="width:100%">
+      <img src="img/lights.jpg" alt="Lights" style="width:100%">
         <h4>Lights</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
@@ -62,14 +69,14 @@
     </div>
     <div class="column cars">
       <div class="content">
-      <img src="w3images/cars2.jpg" alt="Car" style="width:100%">
+      <img src="img/cars2.jpg" alt="Car" style="width:100%">
         <h4>Fast</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
     </div>
     <div class="column cars">
       <div class="content">
-      <img src="w3images/cars3.jpg" alt="Car" style="width:100%">
+      <img src="img/cars3.jpg" alt="Car" style="width:100%">
         <h4>Classic</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
@@ -77,21 +84,21 @@
 
     <div class="column people">
       <div class="content">
-        <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+        <img src="img/people1.jpg" alt="Car" style="width:100%">
         <h4>Girl</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
     </div>
     <div class="column people">
       <div class="content">
-      <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <img src="img/people2.jpg" alt="Car" style="width:100%">
         <h4>Man</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
     </div>
     <div class="column people">
       <div class="content">
-      <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <img src="img/" alt="Car" style="width:100%">
         <h4>Woman</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
