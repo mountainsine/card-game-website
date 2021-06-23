@@ -37,7 +37,7 @@
   
 /* unique sub navigation bar */
 .btn {background-color: #04AA6D;} /* Green */
-.btn:hover {background-color: #46a049;}
+
 
 .btnmars {
   border: none; /* Remove borders */
@@ -45,6 +45,17 @@
   padding: 14px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
   background-color: #46a049;
+}
+
+
+/* Style the images inside the grid */
+.column div {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
 }
 
 .btnlogos {
@@ -84,7 +95,7 @@
 .default:hover {background: #ffffff;
 }
 
- /* photo gallery menu */
+ /* CARD GALLERY MENU */
 .subBtn {
   border: none; /* Remove borders */
   color: white; /* Add a text color */
@@ -121,8 +132,7 @@ h1 {
 
 .row {
   margin: 10px -16px;
-  z-index: 0;
-  max-width: 800;
+  max-width: 900px;
 
 }
 
@@ -130,7 +140,6 @@ h1 {
 .row,
 .row > .column {
   padding: 8px;
-  z-index: 0;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -138,7 +147,6 @@ h1 {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
-  z-index: 0;
 }
 
 /* Clear floats after rows */ 
@@ -184,8 +192,14 @@ h1 {
   z-index: 0;
 }
 
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
 .column img:hover {
-  z-index: 0;
+  opacity: 1;
 }
 
 /* Clear floats after the columns */
@@ -193,14 +207,12 @@ h1 {
   content: "";
   display: table;
   clear: both;
-  z-index: 0;
 }
 
 /* The expanding image container */
 .container {
   position: relative;
   display: none;
-  z-index: 0;
 }
 
 /* Expanding image text */
@@ -210,7 +222,6 @@ h1 {
   left: 15px;
   color: white;
   font-size: 20px;
-  z-index: 0;
 }
 
 /* Closable button inside the expanded image */
@@ -221,6 +232,5 @@ h1 {
   color: white;
   font-size: 35px;
   cursor: pointer;
-  z-index: 0;
 }
 
