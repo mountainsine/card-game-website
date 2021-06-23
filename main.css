@@ -4,11 +4,20 @@
     padding: 14px 28px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
   }
+
+  .btnmars {
+    border: none; /* Remove borders */
+    color: rgb(#04AA6D); /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: #46a049;
+  }
   
   
 /* unique sub navigation bar */
 .btn {background-color: #04AA6D;} /* Green */
 .btn:hover {background-color: #46a049;}
+
 
 .info {background-color: #2196F3;} /* Blue */
 .info:hover {background: #0b7dda;}
@@ -173,4 +182,18 @@ h1 {
   border: 0px;
   max-width: 600px;
 }
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
 
