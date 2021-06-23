@@ -9,21 +9,26 @@
       <a href="cards.html">CARDS</a>
       <a href="learn.html">LEARN</a>
       </div>
-      <link rel="stylesheet" href="main.css">
-      
+      <link rel="stylesheet" href="cards.css">
   </head>
 <body>
+
 <!-- MAIN -->
   <div class="main">
   <h2>CARD LIST</h2>
   <div id="myBtnContainer">
-    <button class="subBtn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="subBtn active" onclick="filterSelection('all')"> SHOW ALL</button>
     <button class="btnmars" onclick="filterSelection('MARS')"> MARS</button>
-    <button class="subBtn" onclick="filterSelection('LOGOS')"> LOGOS</button>
-    <button class="subBtn" onclick="filterSelection('SHADOWS')"> SHADOWS</button>
+    <button class="btnlogos" onclick="filterSelection('LOGOS')"> LOGOS</button>
+    <button class="btnshadows" onclick="filterSelection('SHADOWS')"> SHADOWS</button>
+    <button class="btnbrob" onclick="filterSelection('BROBNAR')"> BROBNAR</button>
   </div>
+
   <!-- Portfolio Gallery Grid -->
   <div class="row">
+
+
+
     <!-- MARS CARDS -->
     <div class="column MARS">
       <div class="content">
@@ -47,34 +52,58 @@
           <p>Lorem ipsum dolor..</p>
         </div>
       <div class="content">
-        <img src="img/card_images/1691e035-1eab-41de-ad18-26245265e64f.png" alt="MARS" style="width:100%">
-          <h4>EMPL BLAST</h4>
-          <p>Lorem ipsum dolor..</p>
+        <img src="img/card_images/341_193_PXQ9229CMHHP_en.png" alt="MARS" style="width:100%">
+          <h4>GRABBER JAMMER</h4>
+          <p>A little ufo thing</p>
         </div>
-    </div>    
+      <div class="content">
+        <img src="img/card_images/341_190_8XHXRR6J7CH2_en.png" alt="MARS" style="width:100%">
+          <h4>BLYPLYP</h4>
+          <p>q quitessentially hard to spell and prounounce name.</p>
+        </div>
+    </div>   
+
+
+
+
     <!-- LOGOS CARDS -->
     <div class="column LOGOS">
       <div class="content">
-        <img src="img/card_images/ff5917ee-ddb9-42d1-8a2a-ecc8c1a6ab84.png" alt="Dimension Door" style="width:100%">
+        <img src="img/card_images/ff5917ee-ddb9-42d1-8a2a-ecc8c1a6ab84.png" alt="LOGOS"  style="width:100%">
         <h4>Dimension door</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
       <div class="content">
-        <img src="img/card_images/f344ec2a-cbfb-4cd1-9f11-35b2a1a7e90c.png" alt="Dimension Door" style="width:100%">
+        <img src="img/card_images/f344ec2a-cbfb-4cd1-9f11-35b2a1a7e90c.png" alt="LOGOS"  style="width:100%">
         <h4>Positron Bolt</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
       <div class="content">
-        <img src="img/card_images/b68e10b3-275e-46b8-8227-fe02984ff525.png" alt="Replicator" style="width:100%">
+        <img src="img/card_images/b68e10b3-275e-46b8-8227-fe02984ff525.png" alt="LOGOS"  style="width:100%">
         <h4>Replicator</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
       <div class="content">
-        <img src="img/card_images/bc22a9d4-8d8d-4c56-a879-262b68d6704a.png" alt="Replicator" style="width:100%">
+        <img src="img/card_images/bc22a9d4-8d8d-4c56-a879-262b68d6704a.png" alt="LOGOS"  style="width:100%">
+        <h4>Skippy Time Hog</h4>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+      <div class="content">
+        <img src="img/card_images/341_114_X6V5QX33Q589_en.png" style="width:100%">
+        <h4>Labwork</h4>
+        <p>a simple archive card with an amber pip. set 1. a baseline!</p>
+      </div>
+      <div class="content">
+        <img src="img/card_images/bc22a9d4-8d8d-4c56-a879-262b68d6704a.png" style="width:100%">
         <h4>Skippy Time Hog</h4>
         <p>Lorem ipsum dolor..</p>
       </div>
     </div>
+
+
+
+
+
     <!-- SHADOWS CARDS -->
     <div class="column SHADOWS">
       <div class="content">
@@ -99,6 +128,7 @@
 
 
 <script>
+// Some Gallery Code from w3schools
 filterSelection("all")
 function filterSelection(c) {
   var x, i;

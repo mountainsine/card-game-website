@@ -1,4 +1,4 @@
-/* The navigation bar */
+/* PRIMARY TOP NAV BAR */
 .navbar {
   margin-left: -8px;
   overflow: hidden;
@@ -6,7 +6,9 @@
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 1;
 }
+
 
 /* Links inside the navbar */
 .navbar a {
@@ -24,6 +26,7 @@
   color: black;
 }
 
+/* BUTTON STYLING */
 .btn {
     border: none; /* Remove borders */
     color: white; /* Add a text color */
@@ -36,14 +39,46 @@
 .btn {background-color: #04AA6D;} /* Green */
 .btn:hover {background-color: #46a049;}
 
-.info {background-color: #2196F3;} /* Blue */
-.info:hover {background: #0b7dda;}
+.btnmars {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #46a049;
+}
 
-.warning {background-color: #ff9800;} /* Orange */
-.warning:hover {background: #e68a00;}
+.btnlogos {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #2196F3;
+}
 
-.danger {background-color: #f44336;} /* Red */
-.danger:hover {background: #da190b;}
+.btnlogos {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #2196F3;
+}
+
+.btnshadows {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #000000;
+}
+
+.btnbrob {
+  border: none; /* Remove borders */
+  color: rgb(hsl(0, 0%, 100%)); /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #f38021;
+}
+
 
 .default {background-color: #ffffff; color: black;} /* Gray */
 .default:hover {background: #ffffff;
@@ -59,82 +94,25 @@
 }
 
 
-/* The navigation bar */
-.navbar {
-  margin-left: -8px;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
   /* text-align: center; */
-  /* max-width: 800px; */
   padding: 20px;
-}
-
-#decks {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#decks td, #deck th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#decks tr:nth-child(even){background-color: #f2f2f2;}
-
-#decks tr:hover {background-color: #ddd;}
-
-#decks th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #333;
-  color: white;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+/* MAIN BODY */
 body {
   background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -8;
   font-family: Arial;
-  margin: auto;
+  z-index: 0
 }
-
-/* Center website
-.main {
-  max-width: 1000px;
-  margin: auto;
-} */
 
 h1 {
   font-size: 50px;
@@ -143,6 +121,8 @@ h1 {
 
 .row {
   margin: 10px -16px;
+  z-index: 0;
+  max-width: 800;
 
 }
 
@@ -150,6 +130,7 @@ h1 {
 .row,
 .row > .column {
   padding: 8px;
+  z-index: 0;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -157,6 +138,7 @@ h1 {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
+  z-index: 0;
 }
 
 /* Clear floats after rows */ 
@@ -164,66 +146,46 @@ h1 {
   content: "";
   display: table;
   clear: both;
+  z-index: 0;
 }
 
 /* Content */
 .content {
   background-color: ffffff;
   padding: 10px;
+  z-index: 0;
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
+  z-index: 0;
 }
 
-/* .img {
-  border: 3px solid black;
-} */
-
-.imgSmall {
-  border: 0px;
-  max-height: 40px;
-}
-
-.bigEmoji{
-  font-size: 30px;
-  
-}
-
-.bigEmojiText{
-  font-size: 25px;
-}
-
-.infoGraphicRender {
-  border: 0px;
-  max-width: 600px;
-}
 
 * {
   box-sizing: border-box;
+  z-index: 0;
 }
 
-body {
-  margin: 100px;
-  font-family: Arial;
-}
+
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
   padding: 10px;
+  z-index: 0;
 }
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8; 
   cursor: pointer; 
+  z-index: 0;
 }
 
 .column img:hover {
-  opacity: 1;
+  z-index: 0;
 }
 
 /* Clear floats after the columns */
@@ -231,12 +193,14 @@ body {
   content: "";
   display: table;
   clear: both;
+  z-index: 0;
 }
 
 /* The expanding image container */
 .container {
   position: relative;
   display: none;
+  z-index: 0;
 }
 
 /* Expanding image text */
@@ -246,6 +210,7 @@ body {
   left: 15px;
   color: white;
   font-size: 20px;
+  z-index: 0;
 }
 
 /* Closable button inside the expanded image */
@@ -256,5 +221,6 @@ body {
   color: white;
   font-size: 35px;
   cursor: pointer;
+  z-index: 0;
 }
 

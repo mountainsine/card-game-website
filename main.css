@@ -1,17 +1,63 @@
+/* PRIMARY TOP NAV BAR */
+.navbar {
+  margin-left: -8px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+/* LINKS INSIDE PRIMARY TOP NAV BAR */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ /* BUTTON STYLING */
+
 .btn {
-    border: none; /* Remove borders */
-    color: white; /* Add a text color */
-    padding: 14px 28px; /* Add some padding */
-    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer; 
   }
 
-  .btnmars {
-    border: none; /* Remove borders */
-    color: rgb(#04AA6D); /* Add a text color */
-    padding: 14px 28px; /* Add some padding */
-    cursor: pointer; /* Add a pointer cursor on mouse-over */
-    background-color: #46a049;
-  }
+.btnmars {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  background-color: #46a049;
+}
   
   
 /* unique sub navigation bar */
@@ -42,32 +88,6 @@
 }
 
 
-/* The navigation bar */
-.navbar {
-  margin-left: -8px;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
@@ -76,11 +96,13 @@
   padding: 20px;
 }
 
+/* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS */
 #decks {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
+
 
 #decks td, #deck th {
   border: 1px solid #ddd;
@@ -99,19 +121,16 @@
   color: white;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #ffffff;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   margin: auto;
-}
+
+} 
 
 /* Center website
 .main {
