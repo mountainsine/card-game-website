@@ -1,0 +1,236 @@
+/* PRIMARY TOP NAV BAR */
+.navbar {
+  margin-left: -8px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* BUTTON STYLING */
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+  }
+  
+  
+/* unique sub navigation bar */
+.btn {background-color: #04AA6D;} /* Green */
+
+
+.btnmars {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #46a049;
+}
+
+
+/* Style the images inside the grid */
+.column div {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.btnlogos {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #2196F3;
+}
+
+.btnlogos {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #2196F3;
+}
+
+.btnshadows {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #000000;
+}
+
+.btnbrob {
+  border: none; /* Remove borders */
+  color: rgb(hsl(0, 0%, 100%)); /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #f38021;
+}
+
+
+.default {background-color: #ffffff; color: black;} /* Gray */
+.default:hover {background: #ffffff;
+}
+
+ /* CARD GALLERY MENU */
+.subBtn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #333; /* Green */
+}
+
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  /* text-align: center; */
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* MAIN BODY */
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -8;
+  font-family: Arial;
+  z-index: 0
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+  max-width: 900px;
+
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  z-index: 0;
+}
+
+/* Content */
+.content {
+  background-color: ffffff;
+  padding: 10px;
+  z-index: 0;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+  z-index: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  z-index: 0;
+}
+
+/* Style the images inside the grid */
+.column img {
+  cursor: pointer; 
+  z-index: 0;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
