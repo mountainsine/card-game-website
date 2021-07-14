@@ -2,7 +2,7 @@
 .navbar {
   margin-left: 0px;
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -122,9 +122,9 @@
   color: white;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   background-color: #ffffff;
@@ -165,6 +165,10 @@ h1 {
 }
 
 
-.imgfullbrowserwidth {
+/* .imgfullbrowserwidth {
   width:;
+} */
+
+.imgbordered {
+  border: black solid 2px;
 }
