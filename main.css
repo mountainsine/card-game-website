@@ -165,10 +165,12 @@ h1 {
 }
 
 
-/* .imgfullbrowserwidth {
-  width:;
-} */
-
 .imgbordered {
   border: black solid 2px;
+}
+
+.imgcardfull {
+  width: 223px;
+  height: 311px;
+  padding: 5px;
 }
