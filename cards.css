@@ -66,14 +66,6 @@
   background-color: #2196F3;
 }
 
-.btnlogos {
-  border: none; /* Remove borders */
-  color: white;
-  padding: 14px 28px; /* Add some padding */
-  cursor: pointer; /* Add a pointer cursor on mouse-over */
-  background-color: #2196F3;
-}
-
 .btnshadows {
   border: none; /* Remove borders */
   color: white;
@@ -88,6 +80,22 @@
   padding: 14px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
   background-color: #f38021;
+}
+
+.btnuntamed {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #25922b;
+}
+
+.btndis {
+  border: none; /* Remove borders */
+  color: white;
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: #d435ba;
 }
 
 
