@@ -1,17 +1,16 @@
 window.addEventListener("load", function(){
     // (A) DUMMY ARRAY
+
+
     var petdecks = [
-        "doge", 
-        "cate", 
-        "birb", 
-        "doggo", 
-        "moon moon", 
-        "awkward seal"
-    ];
+      "Pan, Vapidhurst's Musician", 
+      "Eva, the Justiciar of Godwillow", 
+      "Xtraveo of the Hunter's Canyon", 
+      ];
   
     // (B) CREATE HTML TABLE STRING
-    var perrow = 2, // 2 CELLS PER ROW
-        html = "<table><tr>";
+    var perrow = 1, // 2 CELLS PER ROW
+        html = "<table> <th>DECKS</th><tr>";
   
     // LOOP THROUGH ARRAY AND ADD TABLE CELLS
     for (var i=0; i<petdecks.length; i++) {
@@ -31,8 +30,9 @@ window.addEventListener("load", function(){
       }
     }
     html += "</tr></table>";
-  
+
     // (C) ATTACH HTML TO CONTAINER
-    document.getElementById("container").innerHTML = html;
+  document.getElementById("petdeckscontainer").innerHTML = html;
+    
   });
 

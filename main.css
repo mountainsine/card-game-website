@@ -96,6 +96,8 @@
   background-repeat: no-repeat;
 }
 
+ /* // -- ================================================================== */
+
 /* BLACK AND WHITE HIGH CONTRAST TABLE */
 #decks {
   font-family: Arial, Helvetica, sans-serif;
@@ -121,9 +123,37 @@
   color: white;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
+
+ /* // -- ================================================================== */
+
+
+ /* BLACK AND WHITE HIGH CONTRAST TABLE */
+#petdeckscontainer {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#petdeckscontainer td, #petdeckscontainer th {
+  border: 1px none #ddd;
+  padding: 12px;
+}
+
+#petdeckscontainer tr:nth-child(even){background-color: #f2f2f2;}
+
+#petdeckscontainer tr:hover {background-color: #ddd;}
+
+#petdeckscontainer th {
+  min-width: 800px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333;
+  color: white;
+}
+
+ /* // -- ================================================================== */
 
 body {
   background-color: #ffffff;
@@ -182,4 +212,10 @@ h1 {
 
 .quote {
 font-style: italic;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
