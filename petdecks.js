@@ -1,8 +1,6 @@
 window.addEventListener("load", function(){
-    // (A) DUMMY ARRAY
 
-
-    var petdecks = [
+``    var petdecks = [
       "Pan, Vapidhurst's Musician", 
       "Eva, the Justiciar of Godwillow", 
       "Xtraveo of the Hunter's Canyon", 
