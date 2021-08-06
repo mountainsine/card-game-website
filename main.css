@@ -9,6 +9,10 @@
   z-index: 1;
 }
 
+.p {
+
+}
+
 /* LINKS INSIDE PRIMARY TOP NAV BAR */
 .navbar a {
   float: left;
@@ -158,6 +162,7 @@
 body {
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
   margin: auto;
 
 } 
