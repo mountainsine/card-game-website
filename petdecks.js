@@ -7,8 +7,8 @@ window.addEventListener("load", function(){
       ];
   
     // (B) CREATE HTML TABLE STRING
-    var perrow = 1, // 2 CELLS PER ROW
-        html = "<table> <th>DECKS</th><tr>";
+    var perrow = 2, // 2 CELLS PER ROW
+        html = "<table> <th>DECKS</th><th>OWN?</th><tr>";
   
     // LOOP THROUGH ARRAY AND ADD TABLE CELLS
     for (var i=0; i<petdecks.length; i++) {
