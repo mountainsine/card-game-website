@@ -1,3 +1,3 @@
 var MyArray = [
-  {'name':'michael', 'age':'23', 'birthday':'unkown'}
+  {'Name':'michael', 'Link':'23', 'Archetype':'unkown', 'Archetype':'unkown', 'Notes':'unkown', 'ID':'unkown'}
 ]
