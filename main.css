@@ -9,10 +9,6 @@
   z-index: 1;
 }
 
-.p {
-
-}
-
 /* LINKS INSIDE PRIMARY TOP NAV BAR */
 .navbar a {
   float: left;
@@ -255,3 +251,19 @@ ul.no-bullets {
 
 
  /* // -- ================================================================== */
+
+ /* a warning banner for a page in construction */
+.warningbanner {
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  margin-left: auto;
+  overflow: hidden;
+  background-color: rgb(233, 247, 175);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 30px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border: black 3px;
+  border-style: solid;
+  z-index: 1;
+}
