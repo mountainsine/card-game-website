@@ -47,6 +47,16 @@
   background-color: #46a049;
 }
 
+/* GENERIC BODY */
+.genericbody {
+  padding: 12px;
+  margin: 12px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-top: auto;
+}
+
 
 /* Style the images inside the grid */
 .column div {
@@ -251,17 +261,13 @@ h1 {
 
  /* a warning banner for a page in construction */
  .warningbanner {
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-bottom: 12px;
-  margin-left: -30px;
+  padding: 12px;
+  margin-left: auto;
   overflow: hidden;
   background-color: rgb(233, 247, 175);
-  position: fixed; /* Set the navbar to fixed position */
-  top: 30px; /* Position the navbar at the top of the page */
+  top: auto; /* Set the navbar to fixed position */
   width: 100%; /* Full width */
+  box-sizing: border-box;
   border: black 3px;
   border-style: solid;
-  z-index: 1;
 }
-

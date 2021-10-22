@@ -3,23 +3,21 @@
   margin-left: 0px;
   overflow: hidden;
   background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  border: black 3px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  z-index: 1;
 }
 
 /* LINKS INSIDE PRIMARY TOP NAV BAR */
 .navbar a {
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border: black 3px;
-  box-sizing: border-box;
+  z-index: 1;
 }
 
 /* Change background on mouse-over */
@@ -30,6 +28,7 @@
 
 /* Links inside the navbar */
 .navbar a {
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -43,7 +42,7 @@
   color: black;
 }
 
- /* MISC BUTTON STYLING */
+ /* BUTTON STYLING */
 
 .btn {
     border: none;
@@ -84,31 +83,32 @@
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
   /* text-align: center; */
-  max-width: 100%;
+  max-width: 800px;
   padding: 20px;
 }
 
-/* GENERIC BODY */
-.genericbody {
-  padding: 12px;
-  margin: 12px;
+/* a main content div for just the landing page that utilizes background image */
+.landingpagemain {
   width: 100%;
-  padding-top: auto;
-  word-wrap: break-word;
-  box-sizing: border-box;
-
+  height: 1200px;
+  background-size: 100% 100%;
+  background-image: url(/img/Artboard1LA_lang.jpg);
+  background-repeat: no-repeat;
 }
 
 /* a main content div for just the landing page that utilizes background image */
-.landingpage {
-  background: url('./img/Artboard1GameShelf_land.jpg');
-  background-repeat: repeat-y;
+.landingpagealternate {
+  width: 100vw;
+  height: 1200px;
+  background: url(/img/Artboard1GameShelf_land.jpg);
   background-size: cover;
+  background-position: center, center;
+  background-repeat: repeat;
 }
 
  /* // -- ================================================================== */
 
-/* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS PAGE */
+/* BLACK AND WHITE HIGH CONTRAST TABLE */
 #decks {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -137,7 +137,7 @@
  /* // -- ================================================================== */
 
 
- /* BLACK AND WHITE HIGH CONTRAST TABLE FOR PET DECKS PAGE*/
+ /* BLACK AND WHITE HIGH CONTRAST TABLE */
 #petdeckscontainer {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -167,7 +167,7 @@
  /* // -- ================================================================== */
 
 body {
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   margin: auto;
@@ -185,6 +185,7 @@ h1 {
   word-break: break-all;
 }
 
+
 .imgSmall {
   border: 0px;
   max-height: 40px;
@@ -192,6 +193,7 @@ h1 {
 
 .bigEmoji{
   font-size: 30px;
+  
 }
 
 .bigEmojiText{
@@ -203,11 +205,9 @@ h1 {
   max-width: 600px;
 }
 
+
 .imgbordered {
   border: black solid 2px;
-  max-width: 90%;
-  align-content: center;
-  
 }
 
 .imgcardfull {
@@ -234,7 +234,7 @@ ul.no-bullets {
 
 /* // -- ================================================================== */
 
-/* BLACK AND WHITE HIGH CONTRAST TABLE FOR TRADE PAGE */
+/* BLACK AND WHITE HIGH CONTRAST TABLE */
 #trade {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -264,11 +264,16 @@ ul.no-bullets {
 
  /* a warning banner for a page in construction */
 .warningbanner {
-  padding: 12px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  margin-left: auto;
   overflow: hidden;
   background-color: rgb(233, 247, 175);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 30px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  box-sizing: border-box;
   border: black 3px;
   border-style: solid;
+  z-index: 1;
 }
