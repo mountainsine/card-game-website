@@ -4,11 +4,6 @@ const combostemplate = [
     { name: 'NAME', notes: '', own:''},
     ]
 
-// GENERAL COMBOS
-const combosgeneral = [
-    { name: 'Control the Weak / A fair Game', notes: '', own},
-    ]
-
 // MARS COMBOS
 const marscombos = [
     { name: 'Battle Fleet / Key Abduction', notes: '', own:''},
@@ -48,7 +43,7 @@ const marscombos = [
 const discombos = [
     { name: 'Gateway / Arise', notes: '', own:''},
     { name: 'Drumble / Snudge', notes: '', own:''},
-    { name: 'Multipl Mind Fires', notes: '', own:''},
+    { name: 'x3 Mind Fire', notes: '', own:''},
     { name: 'Essence Scale / Mulitple Q Mechs', notes: '', own:''},
     { name: 'Pitlord / Hecatomb', notes: '', own:''},
     { name: 'Buzzle / Collar Of Subordination', notes: '', own:''},
@@ -62,7 +57,7 @@ const discombos = [
     { name: 'Annihilation Ritual / Screaming Cave', notes: '', own:''},
     { name: 'Mind Barb / Screaming Cave', notes: '', own:''},
     { name: 'Hectatomb / x3 dust imp', notes: '', own:''},
-    { name: 'Gleeful Mayhem / Harbringer of doom', notes: '', own:''},
+    { name: 'Gleeful Mayhem / Harbringer of Doom', notes: '', own:''},
     { name: 'Screaming Cave / x2  Control the Weak', notes: '', own:''},
     { name: 'Screaming Cave / x3 mind barb', notes: '', own:''},
     { name: 'Drumble / Arise', notes: '', own:''},
@@ -78,21 +73,15 @@ const discombos = [
     { name: 'Infurnace / Hysteria', notes: '', own:''},
     { name: 'x2 Harvest Time', notes: '', own:''},
     { name: 'Treuburu / Sinder', notes: '', own:''},
-    { name: 'DRUMBLE + HECATOMB', notes: '', own:''},
-    { name: 'MIND FIRE + SCREAMING CAVE', notes: '', own:''},
-    { name: 'GRIM REMINDER / KIRBY', notes: '', own:''},
-    { name: 'EXUME  / QUANT', notes: '', own:''},
-    { name: 'NAME', notes: '', own:''},
-    { name: 'NAME', notes: '', own:''},
-    { name: 'NAME', notes: '', own:''},
-    { name: 'NAME', notes: '', own:''},
-    { name: 'NAME', notes: '', own:''},
-
+    { name: 'Drumble / Hecatomb', notes: '', own:''},
+    { name: 'Mind Fire / Screaming Cave', notes: '', own:''},
+    { name: 'Grime Reminder / Com. Officer Kirby', notes: '', own:''},
+    { name: 'Exume  / Quant', notes: '', own:''},
     ]
 
 // SHADOWS COMBOS
 const shadowscombos = [
-    { name: 'Sinestra/Scowly Caper', tier: 0 },
+    { name: 'Sinestra / Scowly Caper', tier: 0 },
     { name: 'NAME', notes: '', own:''},
     { name: 'NAME', notes: '', own:''},
     { name: 'NAME', notes: '', own:''},

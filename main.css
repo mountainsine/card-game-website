@@ -1,3 +1,5 @@
+ /* ================================================================== */
+
 /* PRIMARY TOP NAV BAR */
 .navbar {
   margin-left: 0px;
@@ -93,8 +95,9 @@
   padding: 12px;
   margin: 12px;
   width: 100%;
+  max-width: 99%;
   padding-top: auto;
-  word-wrap: break-word;
+  word-wrap:normal;
   box-sizing: border-box;
 
 }
@@ -106,6 +109,8 @@
   background-size: cover;
 }
 
+
+
  /* // -- ================================================================== */
 
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS PAGE */
@@ -113,6 +118,7 @@
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  max-width: 99%;
 }
 
 #decks td, #deck th {
@@ -133,8 +139,7 @@
   color: white;
 }
 
-
- /* // -- ================================================================== */
+ /* ================================================================== */
 
 
  /* BLACK AND WHITE HIGH CONTRAST TABLE FOR PET DECKS PAGE*/
@@ -142,6 +147,7 @@
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  max-width: 99%;
 }
 
 #petdeckscontainer td, #petdeckscontainer th {
@@ -232,13 +238,14 @@ ul.no-bullets {
   margin: 0; /* Remove margins */
 }
 
-/* // -- ================================================================== */
+ /* ================================================================== */
 
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR TRADE PAGE */
 #trade {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  max-width: 99%;
 }
 
 #trade td, #deck th {
@@ -272,3 +279,15 @@ ul.no-bullets {
   border: black 3px;
   border-style: solid;
 }
+
+ /* ================================================================== */
+
+ /* deckanalysis */
+.deckanalysis {
+  padding: 12px;
+  border: solid black 3px;
+  box-sizing: border-box;
+  max-width: 99%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  }
