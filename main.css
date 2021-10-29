@@ -285,15 +285,12 @@ ul.no-bullets {
  /* deckanalysis */
 .deckanalysis {
   padding: 12px;
-  border: solid black 3px;
+  /* border: solid black 3px; */
   box-sizing: border-box;
   max-width: 99%;
   margin-top: 12px;
   margin-bottom: 12px;
   }
-
-
-
   dt {
     font-weight: bold;
   }
@@ -301,3 +298,50 @@ ul.no-bullets {
     margin: 0;
     padding: 0 0 0.5em 0;
   }
+
+
+  #green
+  {
+    background-color: #00f134;
+  }
+
+  #red
+  {
+    background-color: #d10101;
+    color: #f2f2f2;
+  }
+
+  #grey
+  {
+    background-color: #a5a5a5;
+  }
+
+   /* ================================================================== */
+
+   /* // -- ================================================================== */
+
+/* BLACK AND WHITE HIGH CONTRAST TABLE FOR gamecomparison chart/table on LEARN page */
+#gamecomparison {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 99%;
+}
+
+#gamecomparison td, #deck th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#gamecomparison tr:nth-child(even){background-color: #f2f2f2;}
+
+#gamecomparison tr:hover {background-color: #ddd;}
+
+#gamecomparison th {
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333;
+  color: white;
+}
