@@ -326,6 +326,7 @@ ul.no-bullets {
   border-collapse: collapse;
   width: 100%;
   max-width: 99%;
+  text-align: center;
 }
 
 #gamecomparison td, #deck th {
