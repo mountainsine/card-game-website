@@ -196,6 +196,12 @@ h1 {
   max-height: 40px;
 }
 
+.smallimgcaption {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 1px;
+}
+
 .bigEmoji{
   font-size: 30px;
 }
