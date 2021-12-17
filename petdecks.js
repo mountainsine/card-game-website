@@ -1,37 +1,50 @@
-window.addEventListener("load", function(){
+function displayDecks() {
 
-    var petdecks = [
-      { name: "Pan, Vapidhurst's Musician", tier: 1},
-      { name: "Eva, the Justiciar of Godwillow", tier: 1 },
-      { name: "Xtraveo of the Hunter's Canyon",  tier: 1 },
-    ]
+  // deck JSON array data
+  var data =
+  {
+    "decks": [
+      {
+        "name": "Trickster Heifetz",
+        "archetype": "MID",
+        "notes": "Well rounded COTA / Champion's Challenge + Rogue Ogre",
+        "id": "e26a8998-96a4-47a7-8262-68bf027d475d"
+      },
+      {
+        "name": "The Warmaster that Stunts on Gravity",
+        "archetype": "MARS",
+        "notes": "MGKAKA / Poltergeist",
+        "id": "2ac77142-76c9-4a28-a158-9d566f6f9c07"
 
-    // (B) CREATE HTML TABLE STRING
-    var perrow = 2, // 2 CELLS PER ROW
-        html = "<table> <th>DECKS</th><th>OWN?</th><tr>";
-  
-    // LOOP THROUGH ARRAY AND ADD TABLE CELLS
-    for (var i=0; i<petdecks.length; i++) {
-      petdecks = petdecks.values(this.name);
-      // "NORMAL" CELL
-      html += `<td>${petdecks[i]}</td><tr><tr>`;
-  
-      // CLICK ON CELL TO DO SOMETHING 
-      // html += `<td onclick="FUNCTION()">${petdecks[i]}</td>`;
-    
-      // TO PASS IN A RUNNING NUMBER OR PARAMETER
-      // html += `<td onclick="FUNCTION(${i})">${petdecks[i]}</td>`;
-   
-      // BREAK INTO NEXT ROW
-      var next = i+1;
-      if (next%perrow==0 && next!=petdecks.length) {
-        html += "</tr><tr>";
+      },
+      {
+        "name": "Bottomgold, the Officer of the Saloon",
+        "archetype": "MID",
+        "notes": "Fuzzy Gruen / glimmer / Natures Call / Nepenthe Seed / x2 doorstep / x2 TMTP / x2 Ronnie / Brent the Fanatic / Life for a Life",
+        "id": "7da7af56-2eeb-4df7-8a77-ef1f4f02f805"
       }
-    }
-    html += "</tr></table>";
+    ]
+  }
 
-    // (C) ATTACH HTML TO CONTAINER
-  document.getElementById("petdeckscontainer").innerHTML = html;
-    
-  });
+  // Output to Table variable.
+  var output = "<table class='decks'>";
+  // Add Static Table Headers
+  output += "<tr><th>INV</th><th>NAME</th><th>TYPE</th><th>NOTES</th><th>LINK</th><th>ID</th></tr>"
+
+  // Loop through the deck array
+  for (var i in data.decks) {
+    output += "<tr>" + "<td>" + "<input type='checkbox'></input>" + "<td>" + data.decks[i].name + "</td>" + "<td>" + data.decks[i].archetype + "</td>" + "<td>" + data.decks[i].notes + "</td>" + "<td>" + "LINK" + "</td>" + "<td>" + data.decks[i].id + "</td>" + "</tr>";
+    // DEBUG OUTPUT IGNORE
+    // console.log(output);
+  }
+
+  output += "</ul>";
+
+  // Output the data to the "deckLIST" element
+  document.getElementById("deckLIST").innerHTML = output;
+}
+
+// Load displayDecks on window load
+window.onload = displayDecks;
+
 
