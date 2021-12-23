@@ -101,23 +101,6 @@ function displayDecks() {
         "id": "4d445c61-26cd-4956-8d7b-01bdce6ba4a9",
         "tier": "1"
       },
-      {
-        "name": "Murik, Lyonroad's Scrivener",
-        "archetype": "CONTROL",
-        "link": "<a href='https://www.keyforgegame.com/deck-details/f2a8b932-bec3-4495-8f99-9d5479b55939'>LINK</a>",
-        "notes": "x2 Horsemen / x3 succubus / x2 Cowards End",
-        "id": "f2a8b932-bec3-4495-8f99-9d5479b55939",
-        "tier": "0"
-      },
-      {
-        "name": "Murik, Lyonroad's Scrivener",
-        "archetype": "CONTROL",
-        "link": "<a href='https://www.keyforgegame.com/deck-details/f2a8b932-bec3-4495-8f99-9d5479b55939'>LINK</a>",
-        "notes": "x2 Horsemen / x3 succubus / x2 Cowards End",
-        "id": "f2a8b932-bec3-4495-8f99-9d5479b55939",
-        "tier": "0"
-      }
-
     ]
   }
 

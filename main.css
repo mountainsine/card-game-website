@@ -1,5 +1,3 @@
- /* ================================================================== */
-
 /* PRIMARY TOP NAV BAR */
 .navbar {
   margin-left: 0px;
@@ -46,7 +44,6 @@
 }
 
  /* MISC BUTTON STYLING */
-
 .btn {
     border: none;
     color: white;
@@ -81,7 +78,6 @@
 .default:hover {background: #ffffff;
 }
 
-
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
@@ -109,10 +105,6 @@
   background-size: cover;
 }
 
-
-
- /* // -- ================================================================== */
-
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS PAGE */
 .decks {
   font-family: Arial, Helvetica, sans-serif;
@@ -139,9 +131,6 @@
   color: white;
 }
 
- /* ================================================================== */
-
-
  /* BLACK AND WHITE HIGH CONTRAST TABLE FOR PET DECKS PAGE*/
 #petdeckscontainer {
   font-family: Arial, Helvetica, sans-serif;
@@ -167,8 +156,6 @@
   background-color: #333;
   color: white;
 }
-
- /* // -- ================================================================== */
 
 body {
   /* background-color: #ffffff; */
@@ -212,6 +199,7 @@ h1 {
   border: 0px;
   max-width: 600px;
 }
+  
 
 .imgbordered {
   border: black solid 2px;
@@ -221,12 +209,12 @@ h1 {
 }
 
 .imgcardfull {
+  /* NO OPACITY HOVER */
   width: 223px;
   height: 311px;
   padding: 5px;
   
 }
-
 
 .imgcardgalleryfull {
   width: 223px;
