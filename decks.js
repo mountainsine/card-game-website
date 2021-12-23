@@ -101,6 +101,14 @@ function displayDecks() {
         "id": "4d445c61-26cd-4956-8d7b-01bdce6ba4a9",
         "tier": "1"
       },
+      {
+        "name": "S. Destain, Priestess of the Shamed Chaos",
+        "archetype": "CONTROL",
+        "link": "<a href='https://www.keyforgegame.com/deck-details/84136b36-0ebe-44af-9dca-5ee6fa95b1b2'>LINK</a>",
+        "notes": "x3 ctw / Resty / Seed / Witch of the Eye",
+        "id": "84136b36-0ebe-44af-9dca-5ee6fa95b1b2",
+        "tier": "1"
+      },
     ]
   }
 
