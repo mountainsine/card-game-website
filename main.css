@@ -236,6 +236,14 @@ h1 {
   padding: 10px;
 }
 
+.imgcardfullbordered {
+  width: 223px;
+  height: 311px;
+  border: black solid 2px;
+}
+
+  
+
 .quote {
 font-style: italic;
 }

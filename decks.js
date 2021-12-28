@@ -38,6 +38,14 @@ function displayDecks() {
         "tier": "0"
       },
       {
+        "name": "Trapta-egg, She who Flattens the Church",
+        "archetype": "MID",
+        "link": "<a href='https://www.keyforgegame.com/deck-details/14199649-b6c5-452a-8c95-9438ba5d6c52'>LINK</a>",
+        "notes": "x2 Hunting Witch / x2 Dust Pixie / 	Chota Hazri / Seed / x2 Mother / Coward's End / Word of Returning",
+        "id": "14199649-b6c5-452a-8c95-9438ba5d6c52",
+        "tier": "0"
+      },
+      {
         "name": "The Empress of Halesarth",
         "archetype": "MARS",
         "link": "<a href='https://www.keyforgegame.com/deck-details/73a0f95e-3bb6-4bb4-b4a2-5596b7f92e14'>LINK</a>",
