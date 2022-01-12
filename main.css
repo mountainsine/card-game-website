@@ -105,6 +105,8 @@
   background-size: cover;
 }
 
+/* ------------------------ */
+
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS PAGE */
 /* GENERAL STYLING */
 .decks {
@@ -131,6 +133,45 @@
   background-color: #333;
   color: white;
 }
+
+/* ------------------------ */
+
+/* BLACK AND WHITE HIGH CONTRAST TABLE FOR DYNAMIC DECK TABLE*/
+/* GENERAL STYLING */
+.tier1decks {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 99%;
+  
+}
+
+.tier1decks th {
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(1, 90, 28);
+  color: white;
+}
+
+
+
+/* CSS NOTE: COMMA means 2 CSS ELEMENTS (e.g. all tds and th under tier1decks) share the same style */
+.tier1decks td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.tier1decks tbody
+
+/* .tier1decks tr:nth-child(even){background-color: #f2f2f2;} */
+
+/* .tier1decks tr:hover {background-color: #ddd;  ;} */
+
+
+
+
+
+/* ------------------------ */
 
  /* BLACK AND WHITE HIGH CONTRAST TABLE FOR PET DECKS PAGE*/
 #petdeckscontainer {
@@ -359,50 +400,52 @@ ul.no-bullets {
   color: white;
 }
 
-#archetyperush
+/* DECK ARCHETYPE COLORS */
+
+.archetyperush
 {
   background-color: #e69d58;
 }
 
-#archetypecontrol
+.archetypecontrol
 {
   background-color: #3f1153;
   color: white;
 }
 
-#archetypecombo
+.archetypecombo
 {
   background-color: #d23135;
 }
 
-#archetypemidrange
+.archetypemidrange
 {
   background-color: #f0de99;
 }
 
-#archetypesteal
+.archetypesteal
 {
   background-color: #888887;
 }
 
-#archetypemars
+.archetypemars
 {
   background-color: #3d9b35;
   color: white;
 }
 
-#archetypereversal
+.archetypereversal
 {
   background-color: #814b0e;
   color: white;
 }
 
-#archetypegrouphug
+.archetypegrouphug
 {
   background-color: #e7b4e7;
 }
 
-#archetypejank
+.archetypejank
 {
   background-color: #5db85d;
 }

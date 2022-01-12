@@ -130,15 +130,78 @@ function displayDecks() {
 
   // Loop through the deck array
   for (var i in data.decks) {
-    output += "<tr>" + "<td>" + "<input type='checkbox'></input>" + "<td>" + data.decks[i].name + "</td>" + "<td>" + data.decks[i].archetype + "</td>" + "<td>" + data.decks[i].notes + "</td>" + "<td>" + data.decks[i].link + "</td>" + "<td>" + data.decks[i].id + "</td>" + "</tr>";
-    // DEBUG OUTPUT IGNORE
-    // console.log(output);
+    // CHECKBOX COLUMN
+    output +=
+      "<tr>" +
+      "<td>" +
+      "<input type='checkbox'></input>" +
+
+      // DECKNAME COLUMN
+      "<td>" +
+      data.decks[i].name +
+      "</td>"
+
+    // ARCHETYPE COLUMN
+
+    if (data.decks[i].archetype === 'RUSH') {
+      console.log("RUSH FOUND")
+      output += "<td class='archetyperush'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'MID') {
+      console.log("MID")
+      output += "<td class='archetypemidrange'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'COMBO') {
+      console.log("COMBO")
+      output += "<td class='archetypecombo'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'CONTROL') {
+      console.log("CONTROL")
+      output += "<td class='archetypecontrol'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'REVERSAL') {
+      console.log("REVERSAL")
+      output += "<td class='archetypereversal'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'STEAL') {
+      console.log("STEAL")
+      output += "<td class='archetypesteal'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'MARS') {
+      console.log("MARS")
+      output += "<td class='archetypemars'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'GROUPHUG') {
+      console.log("GROUPHUG")
+      output += "<td class='archetypegrouphug'>" + data.decks[i].archetype + "</td>"
+    } else if (data.decks[i].archetype === 'JANK') {
+      console.log("JANK")
+      output += "<td class='archetypejank'>" + data.decks[i].archetype + "</td>"
+    } else {
+      console.log("catchall")
+      output += "<td></td>"
+      data.decks[i].archetype;
+    }
+
+
+
+    // NOTES COLUMN
+    output +=
+      "<td>" +
+      data.decks[i].notes +
+      "</td>" +
+      "<td>" +
+      data.decks[i].link +
+      "</td>" +
+      "<td>" +
+      data.decks[i].id +
+      "</td>" +
+      "</tr>";
   }
 
   output += "</ul>";
 
-  // Output the data to the "deckLIST" element
-  document.getElementById("deckLIST").innerHTML = output;
+  // Output the data to the "tierZeroList" element
+  document.getElementById("tierZeroList").innerHTML = output;
+
+  // Output the data to the "tierOneList" element
+  document.getElementById("tierOneList").innerHTML = output;
+
+
+
 }
 
 // Load displayDecks on window load
