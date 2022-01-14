@@ -1,65 +1,65 @@
 /* PRIMARY TOP NAV BAR */
 .navbar {
-  margin-left: 0px;
-  overflow: hidden;
-  background-color: black;
-  width: 100%; /* Full width */
-  border: black 3px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+margin-left: 0px;
+overflow: hidden;
+background-color: black;
+width: 100%; /* Full width */
+border: black 3px;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 /* LINKS INSIDE PRIMARY TOP NAV BAR */
 .navbar a {
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border: black 3px;
-  box-sizing: border-box;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border: black 3px;
+box-sizing: border-box;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+background: #ddd;
+color: black;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+background: #ddd;
+color: black;
 }
 
- /* MISC BUTTON STYLING */
+/* MISC BUTTON STYLING */
 .btn {
-    border: none;
-    color: white;
-    padding: 14px 28px;
-    cursor: pointer; 
-  }
+border: none;
+color: white;
+padding: 14px 28px;
+cursor: pointer; 
+}
 
 .btnmars {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  cursor: pointer;
-  background-color: #46a049;
+border: none;
+color: white;
+padding: 14px 28px;
+cursor: pointer;
+background-color: #46a049;
 }
-  
-  
+
+
 /* unique sub navigation bar */
 .btn {background-color: #04AA6D;} /* Green */
 .btn:hover {background-color: #46a049;}
@@ -80,29 +80,29 @@
 
 /* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-  /* text-align: center; */
-  max-width: 100%;
-  padding: 20px;
+margin-top: 30px; /* Add a top margin to avoid content overlay */
+/* text-align: center; */
+max-width: 100%;
+padding: 20px;
 }
 
 /* GENERIC BODY */
 .genericbody {
-  padding: 12px;
-  margin: 12px;
-  width: 100%;
-  max-width: 99%;
-  padding-top: auto;
-  word-wrap:normal;
-  box-sizing: border-box;
+padding: 12px;
+margin: 12px;
+width: 100%;
+max-width: 99%;
+padding-top: auto;
+word-wrap:normal;
+box-sizing: border-box;
 
 }
 
 /* a main content div for just the landing page that utilizes background image */
 .landingpage {
-  background: url('./img/Artboard1GameShelf_land.jpg');
-  background-repeat: repeat-y;
-  background-size: cover;
+background: url('./img/Artboard1GameShelf_land.jpg');
+background-repeat: repeat-y;
+background-size: cover;
 }
 
 /* ------------------------ */
@@ -110,17 +110,17 @@
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS PAGE */
 /* GENERAL STYLING */
 .decks {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 99%;
-  
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+max-width: 99%;
+
 }
 
 /* CSS NOTE: COMMA means 2 CSS ELEMENTS (e.g. all tds and th under decks) share the same style */
 .decks td {
-  border: 1px solid #ddd;
-  padding: 10px;
+border: 1px solid #ddd;
+padding: 10px;
 }
 
 .decks tr:nth-child(even){background-color: #f2f2f2;}
@@ -128,10 +128,10 @@
 .decks tr:hover {background-color: #ddd;}
 
 .decks th {
-  padding: 10px;
-  text-align: left;
-  background-color: #333;
-  color: white;
+padding: 10px;
+text-align: left;
+background-color: #333;
+color: white;
 }
 
 /* ------------------------ */
@@ -139,26 +139,26 @@
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR DYNAMIC DECK TABLE*/
 /* GENERAL STYLING */
 .tier1decks {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 99%;
-  
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+max-width: 99%;
+
 }
 
 .tier1decks th {
-  padding: 10px;
-  text-align: left;
-  background-color: rgb(1, 90, 28);
-  color: white;
+padding: 10px;
+text-align: left;
+background-color: rgb(1, 90, 28);
+color: white;
 }
 
 
 
 /* CSS NOTE: COMMA means 2 CSS ELEMENTS (e.g. all tds and th under tier1decks) share the same style */
 .tier1decks td {
-  border: 1px solid #ddd;
-  padding: 10px;
+border: 1px solid #ddd;
+padding: 10px;
 }
 
 .tier1decks tbody
@@ -173,17 +173,17 @@
 
 /* ------------------------ */
 
- /* BLACK AND WHITE HIGH CONTRAST TABLE FOR PET DECKS PAGE*/
+/* BLACK AND WHITE HIGH CONTRAST TABLE FOR PET DECKS PAGE*/
 #petdeckscontainer {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 99%;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+max-width: 99%;
 }
 
 #petdeckscontainer td, #petdeckscontainer th {
-  border: 1px none #ddd;
-  padding: 12px;
+border: 1px none #ddd;
+padding: 12px;
 }
 
 #petdeckscontainer tr:nth-child(even){background-color: #f2f2f2;}
@@ -191,123 +191,123 @@
 #petdeckscontainer tr:hover {background-color: #ddd;}
 
 #petdeckscontainer th {
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #333;
-  color: white;
+padding-top: 12px;
+padding-left: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #333;
+color: white;
 }
 
 body {
-  /* background-color: #ffffff; */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
-  margin: auto;
+/* background-color: #ffffff; */
+font-family: Arial, Helvetica, sans-serif;
+font-size: x-large;
+margin: auto;
 
 } 
 
 /* Center website
 .main {
-  max-width: 1000px;
-  margin: auto;
+max-width: 1000px;
+margin: auto;
 } */
 
 h1 {
-  font-size: 50px;
-  word-break: break-all;
+font-size: 50px;
+word-break: break-all;
 }
 
 .imgSmall {
-  border: 0px;
-  max-height: 40px;
+border: 0px;
+max-height: 40px;
 }
 
 .smallimgcaption {
-  font-style: italic;
-  font-size: 20px;
-  margin-top: 1px;
+font-style: italic;
+font-size: 20px;
+margin-top: 1px;
 }
 
 .bigEmoji{
-  font-size: 30px;
+font-size: 30px;
 }
 
 .bigEmojiText{
-  font-size: 25px;
+font-size: 25px;
 }
 
 .infoGraphicRender {
-  border: 0px;
-  max-width: 600px;
+border: 0px;
+max-width: 600px;
 }
-  
+
 
 .imgbordered {
-  border: black solid 2px;
-  max-width: 90%;
-  align-content: center;
-  
+border: black solid 2px;
+max-width: 90%;
+align-content: center;
+
 }
 
 .imgcardfull {
-  /* NO OPACITY HOVER */
-  width: 223px;
-  height: 311px;
-  padding: 5px;
-  
+/* NO OPACITY HOVER */
+width: 223px;
+height: 311px;
+padding: 5px;
+
 }
 
 .imgcardgalleryfull {
-  width: 223px;
-  height: 311px;
-  padding: 5px;
-  opacity: 80%;
-  
+width: 223px;
+height: 311px;
+padding: 5px;
+opacity: 80%;
+
 }
 
 .imgcardgalleryfull:hover {
-  opacity: 100%;
+opacity: 100%;
 }
 
 
 .imageadaptiveinfographic {
-  /* width: 50%; */
-  /* height: 50%; */
-  padding: 10px;
+/* width: 50%; */
+/* height: 50%; */
+padding: 10px;
 }
 
 .imgcardfullbordered {
-  width: 223px;
-  height: 311px;
-  border: black solid 2px;
+width: 223px;
+height: 311px;
+border: black solid 2px;
 }
 
-  
+
 
 .quote {
 font-style: italic;
 }
 
 ul.no-bullets {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+margin: 0; /* Remove margins */
 }
 
- /* ================================================================== */
+/* ================================================================== */
 
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR TRADE PAGE */
 #trade {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 99%;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+max-width: 99%;
 }
 
 #trade td, #deck th {
-  border: 1px solid #ddd;
-  padding: 8px;
+border: 1px solid #ddd;
+padding: 8px;
 }
 
 #trade tr:nth-child(even){background-color: #f2f2f2;}
@@ -315,139 +315,136 @@ ul.no-bullets {
 #trade tr:hover {background-color: #ddd;}
 
 #trade th {
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #333;
-  color: white;
+padding-top: 12px;
+padding-left: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #333;
+color: white;
 }
 
 
- /* // -- ================================================================== */
+/* // -- ================================================================== */
 
- /* a warning banner for a page in construction */
+/* a warning banner for a page in construction */
 .warningbanner {
-  padding: 12px;
-  overflow: hidden;
-  background-color: rgb(233, 247, 175);
-  width: 100%; /* Full width */
-  box-sizing: border-box;
-  border: black 3px;
-  border-style: solid;
+padding: 12px;
+overflow: hidden;
+background-color: rgb(233, 247, 175);
+width: 100%; /* Full width */
+box-sizing: border-box;
+border: black 3px;
+border-style: solid;
 }
 
- /* ================================================================== */
+/* ================================================================== */
 
- /* deckanalysis */
+/* deckanalysis */
 .deckanalysis {
-  padding: 12px;
-  /* border: solid black 3px; */
-  box-sizing: border-box;
-  max-width: 99%;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  }
-  dt {
-    font-weight: bold;
-  }
-  dd {
-    margin: 0;
-    padding: 0 0 0.5em 0;
-  }
-  
+padding: 12px;
+/* border: solid black 3px; */
+box-sizing: border-box;
+max-width: 99%;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+dt {
+font-weight: bold;
+}
+dd {
+margin: 0;
+padding: 0 0 0.5em 0;
+}
 
 
-  #green
-  {
-    background-color: #00f134;
-  }
 
-  #red
-  {
-    background-color: #d10101;
-    color: #f2f2f2;
-  }
+#green
+{
+background-color: #00f134;
+}
 
-  #grey
-  {
-    background-color: #a5a5a5;
-  }
-  
-  /* ================================================================== */
+#red
+{
+background-color: #d10101;
+color: #f2f2f2;
+}
 
-   /* // -- ================================================================== */
+#grey
+{
+background-color: #a5a5a5;
+}
 
-/* BLACK AND WHITE HIGH CONTRAST TABLE FOR DECKS PAGE */
+/* ================================================================== */
+
 #key {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  border-collapse: collapse;
-  width: 25%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+border-collapse: collapse;
+width: 25%;
 }
 
 #key td, #deck th {
-  border: 1px solid #ddd;
-  padding: 8px;
+border: 1px solid #ddd;
+padding: 8px;
 }
 
 #key th {
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #333;
-  color: white;
+padding-top: 12px;
+padding-left: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #333;
+color: white;
 }
 
 /* DECK ARCHETYPE COLORS */
 
 .archetyperush
 {
-  background-color: #e69d58;
+background-color: #e69d58;
 }
 
 .archetypecontrol
 {
-  background-color: #3f1153;
-  color: white;
+background-color: #3f1153;
+color: white;
 }
 
 .archetypecombo
 {
-  background-color: #d23135;
+background-color: #d23135;
 }
 
 .archetypemidrange
 {
-  background-color: #f0de99;
+background-color: #f0de99;
 }
 
 .archetypesteal
 {
-  background-color: #888887;
+background-color: #888887;
 }
 
 .archetypemars
 {
-  background-color: #3d9b35;
-  color: white;
+background-color: #3d9b35;
+color: white;
 }
 
 .archetypereversal
 {
-  background-color: #814b0e;
-  color: white;
+background-color: #814b0e;
+color: white;
 }
 
 .archetypegrouphug
 {
-  background-color: #e7b4e7;
+background-color: #e7b4e7;
 }
 
 .archetypejank
 {
-  background-color: #5db85d;
+background-color: #5db85d;
 }
 
 
@@ -456,16 +453,16 @@ ul.no-bullets {
 
 /* BLACK AND WHITE HIGH CONTRAST TABLE FOR gamecomparison chart/table on LEARN page */
 #gamecomparison {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 99%;
-  text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+max-width: 99%;
+text-align: center;
 }
 
 #gamecomparison td, #deck th {
-  border: 1px solid #ddd;
-  padding: 8px;
+border: 1px solid #ddd;
+padding: 8px;
 }
 
 #gamecomparison tr:nth-child(even){background-color: #f2f2f2;}
@@ -473,12 +470,12 @@ ul.no-bullets {
 #gamecomparison tr:hover {background-color: #ddd;}
 
 #gamecomparison th {
-  padding-top: 12px;
-  padding-left: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #333;
-  color: white;
+padding-top: 12px;
+padding-left: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #333;
+color: white;
 }
 
 
@@ -487,10 +484,10 @@ ul.no-bullets {
 
 
 #tableofcontentslist {
-  list-style-type: none;
+list-style-type: none;
 }
 
 .gameclientscreenshot {
-  max-width: 30%;
-  padding: 5px;
+max-width: 30%;
+padding: 5px;
 }
