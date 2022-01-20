@@ -91,6 +91,14 @@ var data =
       "id": "f2a8b932-bec3-4495-8f99-9d5479b55939",
       "tier": "0"
     },
+    {
+      "name": "Miles, Spooky Rock Wizard",
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/91720db4-cd1e-4174-a9cc-b87883cd934d'>LINK</a>",
+      "notes": "x2 Glimmer / Martian Generosity / Destroy Them All! / x2 Mars Needs Æmber / x They're Everywhere! / 	Pile of Skulls / Coward's End / Po's Pixies",
+      "id": "91720db4-cd1e-4174-a9cc-b87883cd934d",
+      "tier": "0"
+    },
     // TIER-1-DECKS
     {
       "name": "Bard Toranid",
@@ -157,11 +165,11 @@ var data =
       "tier": "1"
     },
     {
-      "name": "The Song that Tumultuously Betrayed Keys",
-      "archetype": "COMBO",
-      "link": "<a href='https://www.keyforgegame.com/deck-details/6a06f56a-9498-4323-82a2-84fb99609968'>LINK</a>",
-      "notes": "Poltergeist / Mimicry / Routine Job / Witch of the Wild",
-      "id": "6a06f56a-9498-4323-82a2-84fb99609968",
+      "name": "Tombmind, Wild Artist",
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/8c239950-40ea-4dfc-8d52-2056a0ad2f47'>LINK</a>",
+      "notes": "buzzle / E on the fringles / Subtle Maul / Chain gange / bloodshard Imp / Key to Dis",
+      "id": "8c239950-40ea-4dfc-8d52-2056a0ad2f47",
       "tier": "1"
     },
     {
@@ -216,8 +224,16 @@ var data =
       "name": "Ambiguously Curious Jafsica",
       "archetype": "CONTROL",
       "link": "<a href='https://www.keyforgegame.com/deck-details/43bd2674-8ae9-495c-86f9-ff20ad108981'>LINK</a>",
-      "notes": "Maverick Mindwarper in Shadows / TMTP / x3 Ember Imp / B & S",
+      "notes": "Maverick Mindwarper in Shadows / Too Much to Protect / x3 Ember Imp / Bait & Switch",
       "id": "43bd2674-8ae9-495c-86f9-ff20ad108981",
+      "tier": "1"
+    },
+    {
+      "name": "Sealrobin Garcion, the Craving and Cold",
+      "archetype": "MID",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/94de5e7d-a60c-4127-b5d4-2a94db303c65'>LINK</a>",
+      "notes": "Maverick Too Much to Protect in Brobnar / Loot the Bodies / Champion's Challenge / x3 Ulyq Megamouth / Mass Abduction / x3 Silvertooth / Urchin / Bait and Switch / Macis Asp / Mack the Knife / Shadow Self",
+      "id": "94de5e7d-a60c-4127-b5d4-2a94db303c65",
       "tier": "1"
     },
     {
@@ -274,6 +290,14 @@ var data =
       "link": "<a href='https://www.keyforgegame.com/deck-details/9f994639-7dc0-4689-80e4-333ca1e6ee73'>LINK</a>",
       "notes": "Labwork / Library Access / Phase Shift / Battle Fleet / Hunting Witch / x3 Squawker / Deep Probe",
       "id": "9f994639-7dc0-4689-80e4-333ca1e6ee73",
+      "tier": "1"
+    },
+    {
+      "name": "The Gentleman of Nevermarket",
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/cb20cc3c-66fc-4a7e-9132-c8bcf4a1219e'>LINK</a>",
+      "notes": "Burn the Stockpile / Maverick Glorious Few in Brobnar / x2 	Coward's End / Library Access / Effervescent Principle / x3 Uxlyx the Zookeeper / Sample Collection",
+      "id": "cb20cc3c-66fc-4a7e-9132-c8bcf4a1219e",
       "tier": "1"
     },
     {
@@ -338,6 +362,14 @@ var data =
       "link": "<a href='https://www.keyforgegame.com/deck-details/d6c246a4-1b6a-46be-aa50-f16bfebd45b9'>LINK</a>",
       "notes": "Dino Deck! Cincinnatus Rex / x2 Tribute / x2 The Callipygian Ideal / x2 Rhetor Gallim / x2 Daughter",
       "id": "d6c246a4-1b6a-46be-aa50-f16bfebd45b9",
+      "tier": "1"
+    },
+    {
+      "name": "I. Halvorsen, the Temple Miscreant",
+      "archetype": "MID",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/c24bb598-086c-432d-b87e-f7bb1ff36705'>LINK</a>",
+      "notes": "Legacy Panpaca, Anga in MM / Guilty Hearts / Fertility Chant / Dark Æmber Vault / 8 mutants",
+      "id": "51e877f9-07b1-4ef7-a8e6-211a2c777d88",
       "tier": "1"
     },
     {
@@ -534,11 +566,29 @@ var data =
       "tier": "2"
     },
     {
+      "name": "Millett, Whisperview's Abductor",
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/2b65b970-9015-4e65-b7ff-89e5bfc3f868'>LINK</a>",
+      "notes": "Library Access / Battle Fleet / Phase Shift",
+      "id": "2b65b970-9015-4e65-b7ff-89e5bfc3f868",
+      "tier": "2"
+    },
+
+
+    {
       "name": "Zero, Innerbridge Scholar",
       "archetype": "MID",
       "link": "<a href='https://www.keyforgegame.com/deck-details/8924d96f-3e4e-47e6-bbed-ec199b80a1a1'>LINK</a>",
       "notes": "x3 Library of Babble / x2 Rocket Boots / Rock-Hurling Giant / TMTP / Routine Job",
       "id": "e8b39bef-0915-42c6-828e-73580b215924",
+      "tier": "2"
+    },
+    {
+      "name": "Kyrre, Tower Scientist",
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/eb77d206-7b6a-497d-bd04-08f86ebc1e74'>LINK</a>",
+      "notes": "x3 Deep Probe / Library Access / Phase Shift / x3 Ulyq Megamouth / x2 Rocket Boots / Doorstep to Heaven / Glorious Few",
+      "id": "eb77d206-7b6a-497d-bd04-08f86ebc1e74",
       "tier": "2"
     },
     {
@@ -596,6 +646,14 @@ var data =
       "link": "<a href='https://www.keyforgegame.com/deck-details/fb637a81-22a2-48fc-bbd1-ca090bdd3452'>LINK</a>",
       "notes": "BRBRBRIG",
       "id": "fb637a81-22a2-48fc-bbd1-ca090bdd3452",
+      "tier": "2"
+    },
+    {
+      "name": "Lord Zanispace Toranid",
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/e797b520-6871-4758-8be4-f6eab11721d5'>LINK</a>",
+      "notes": "[REDACTED] / x3 Titan Librarian / x2 Angwish / Creeping Oblivion / labwork / Incubation Chamber / Entropic Manipulator / x2 Destroy Them All! / a really good deck against the keyraken!",
+      "id": "e797b520-6871-4758-8be4-f6eab11721d5",
       "tier": "2"
     },
     {
@@ -726,9 +784,102 @@ var data =
       "id": "82b67040-ac36-4157-998a-3ece63886f67",
       "tier": "2"
     },
-
-
-
+    {
+      "name": "Undercanic, the Minstrel of the Dungeon",
+      "archetype": "STEAL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/cad1dd6b-3b3a-4552-8599-9c3410fc7dd6'>LINK</a>",
+      "notes": "Legacy Hit and Run in MM / Rad Penny / Imperial Traitor",
+      "id": "cad1dd6b-3b3a-4552-8599-9c3410fc7dd6",
+      "tier": "2"
+    },
+    {
+      "name": "Righteous “Justice” Midge",
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/659000d8-a757-4ee2-8670-8188f1afc57a'>LINK</a>",
+      "notes": "Auto-Encoder / x2 Lethologica / Effervescent Principle / Reverse Time / ANT1-10NY / Exile",
+      "id": "659000d8-a757-4ee2-8670-8188f1afc57a",
+      "tier": "2"
+    },
+    {
+      "name": 'Jhonsglen, the "Watcher" of Platinum',
+      "archetype": "MID",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/08f6c786-4898-44ef-8f7a-8835d85cf1c8'>LINK</a>",
+      "notes": "Library Access / Labwork / Effervescent Principle / Bouncing Deathquark / Dextre / Battle Fleet / x3 Grabber Jammer / Strong Shadows",
+      "id": "08f6c786-4898-44ef-8f7a-8835d85cf1c8",
+      "tier": "2"
+    },
+    {
+      "name": 'Immortal N. Tenderbearer',
+      "archetype": "MID",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/eddf4ff9-3c45-4cc6-ae6a-4262d95be532'>LINK</a>",
+      "notes": "legacy Snudge in WC / Buzzle / x3 Hapsis / x2 Quant / Remote Access / Key Charge / Fuzzy Gruen",
+      "id": "eddf4ff9-3c45-4cc6-ae6a-4262d95be532",
+      "tier": "2"
+    },
+    {
+      "name": 'Private First Class Emerald',
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/b03f138b-1ae6-4b4d-92db-5f8c5b8843df'>LINK</a>",
+      "notes": "x2 Golden Spiral / Captain Val Jericho / Book of IeQ / Fane's Blaster / Walls' Blaster",
+      "id": "b03f138b-1ae6-4b4d-92db-5f8c5b8843df",
+      "tier": "2"
+    },
+    {
+      "name": 'The Sage that Laughs about Languages',
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/560794f5-adf8-4653-ad8c-eb86d8065008'>LINK</a>",
+      "notes": "Maleficorn / x2 Ghosthawk / Chronus / Auto-Encoder / Library Card",
+      "id": "560794f5-adf8-4653-ad8c-eb86d8065008",
+      "tier": "2"
+    },
+    {
+      "name": 'Gregor, Windingmarket Locksmith',
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/9dc13438-08ef-49a8-81c7-0c5856381268'>LINK</a>",
+      "notes": "x2 Infurnace / x2 Mark of Dis / Mindfire / Obsidian Forge / x2 Effervescent Principle / Lethologica / Hyde / Velum",
+      "id": "9dc13438-08ef-49a8-81c7-0c5856381268",
+      "tier": "2"
+    },
+    {
+      "name": 'Devout Benjicott of the Manor',
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/adcdc4cd-488e-45ea-aefc-ca8991b224fc'>LINK</a>",
+      "notes": "x3 Stealth Mode / x2 Ghosthawk / x2 Tribute / Exile / Sic Semper Tyrannosaurus",
+      "id": "adcdc4cd-488e-45ea-aefc-ca8991b224fc",
+      "tier": "2"
+    },
+    {
+      "name": 'Reno, the Emperor of Aarhujoll',
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/f4a7099e-a225-40d8-91a6-54f6a1dac91e'>LINK</a>",
+      "notes": "x3 Infurnace / Impspector / Lesser Oxtet / EDAI “Edie” 4x4 / Praefectus Ludo / Regrettable Meteor / The Golden Spiral",
+      "id": "9dc13438-08ef-49a8-81c7-0c5856381268",
+      "tier": "2"
+    },
+    {
+      "name": 'The Conspicuous Composer of Blankglade',
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/992e80bc-3587-49c6-b906-bdcf33774cc7'>LINK</a>",
+      "notes": "x2 General Order / Strange Gizmpo / Grasping Vines / x2 EDAI “Edie” 4x4 / Ghosthawk / Key Charge",
+      "id": "992e80bc-3587-49c6-b906-bdcf33774cc7",
+      "tier": "2"
+    },
+    {
+      "name": 'They that Provokes Portalcircle',
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/38f78f1f-3185-40d0-bd84-29562a01f071'>LINK</a>",
+      "notes": `x2 EDAI “Edie” 4x4 / x2 Theory or Conjecture / 	"Borrow" / 	City-State Interest`,
+      "id": "38f78f1f-3185-40d0-bd84-29562a01f071",
+      "tier": "2"
+    },
+    {
+      "name": 'They that Provokes Portalcircle',
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/38f78f1f-3185-40d0-bd84-29562a01f071'>LINK</a>",
+      "notes": `x2 EDAI “Edie” 4x4 / x2 Theory or Conjecture / 	"Borrow" / 	City-State Interest`,
+      "id": "38f78f1f-3185-40d0-bd84-29562a01f071",
+      "tier": "3"
+    },
 
 
   ]
@@ -741,6 +892,7 @@ function displayDecks() {
   var tier0table = "<table id='tier0' class='decks'><tr><th>INV</th><th>NAME</th><th>TYPE</th><th>NOTES</th><th>LINK</th><th>ID</th></tr>";
   var tier1table = "<table id='tier1' class='decks'><tr><th>INV</th><th>NAME</th><th>TYPE</th><th>NOTES</th><th>LINK</th><th>ID</th></tr>";
   var tier2table = "<table id='tier2' class='decks'><tr><th>INV</th><th>NAME</th><th>TYPE</th><th>NOTES</th><th>LINK</th><th>ID</th></tr>";
+  var tier3table = "<table id='tier3' class='decks'><tr><th>INV</th><th>NAME</th><th>TYPE</th><th>NOTES</th><th>LINK</th><th>ID</th></tr>";
 
   // Loop through the deck array
   for (var i in data.decks) {
@@ -801,15 +953,16 @@ function displayDecks() {
         tier1table += output;
       } else if (data.decks[i].tier == '2') {
         tier2table += output;
+      } else if (data.decks[i].tier == '3') {
+        tier3table += output;
       }
   }
 
   // Output the data to the "tierZeroList" element
   document.getElementById("tierZeroList").innerHTML = tier0table;
-  // Output the data to the "tierZeroList" element
   document.getElementById("tierOneList").innerHTML = tier1table;
-  // Output the data to the "tierZeroList" element
   document.getElementById("tierTwoList").innerHTML = tier2table;
+  document.getElementById("tierThreeList").innerHTML = tier3table;
 }
 
 // Load displayDecks on window load
