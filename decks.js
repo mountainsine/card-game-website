@@ -300,6 +300,15 @@ var data =
       "id": "cb20cc3c-66fc-4a7e-9132-c8bcf4a1219e",
       "tier": "1"
     },
+    // TIER1-Age-Of-Ascension
+    {
+      "name": "Odynfroid, Cathedral Gatekeeper",
+      "archetype": "MARS",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/2a7ac196-8585-4967-b692-12f643be437b'>LINK</a>",
+      "notes": "Martian Generosity / Glyxl Proliferator/ x3 Tyxl Beambuckler / Mars Needs Æmber / Director of Z.Y.X. / Memory Chip / Interdimensional Graft / Overlord Greking",
+      "id": "2a7ac196-8585-4967-b692-12f643be437b",
+      "tier": "1"
+    },
     {
       "name": "Hevensworth of Skirmlane",
       "archetype": "COMBO",
@@ -872,12 +881,21 @@ var data =
       "id": "38f78f1f-3185-40d0-bd84-29562a01f071",
       "tier": "2"
     },
+    // TIER3DECKS
     {
       "name": 'They that Provokes Portalcircle',
       "archetype": "CONTROL",
       "link": "<a href='https://www.keyforgegame.com/deck-details/38f78f1f-3185-40d0-bd84-29562a01f071'>LINK</a>",
       "notes": `x2 EDAI “Edie” 4x4 / x2 Theory or Conjecture / 	"Borrow" / 	City-State Interest`,
       "id": "38f78f1f-3185-40d0-bd84-29562a01f071",
+      "tier": "3"
+    },
+    {
+      "name": 'Hushovd, the Jeweler of Anbend',
+      "archetype": "RUSH",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/728ea74f-ea8a-4229-ae3b-517651b1b12d'>LINK</a>",
+      "notes": `Fertility Chant / x3 Hunting Witch / Witch of the Eye / Bear Flute / only 1 bear (recursion) / Mimicry / x2 Neuro Syphon`,
+      "id": "https://www.keyforgegame.com/deck-details/728ea74f-ea8a-4229-ae3b-517651b1b12d",
       "tier": "3"
     },
 
