@@ -617,6 +617,14 @@ var data =
       "tier": "2"
     },
     {
+      "name": "The Rogue that Banishes The Question",
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/d0bfd0c7-69f5-495f-99fd-8d9d42d734b1'>LINK</a>",
+      "notes": "Tribute / Exile / x2 Praefectus Ludo / x2 Phalanx Strike / Ancient Power / x2 Eyegor / x2 Dr. Milli / Data Forge / 	Pile of Skulls / x2 	Berserker Slam ",
+      "id": "d0bfd0c7-69f5-495f-99fd-8d9d42d734b1",
+      "tier": "1"
+    },
+    {
       "name": "Kahn T. Thundnin",
       "archetype": "CONTROL",
       "link": "<a href='https://www.keyforgegame.com/deck-details/9fac762c-e8dc-469d-a801-ab7d30726c2f'>LINK</a>",
@@ -690,6 +698,14 @@ var data =
       "tier": "2"
     },
     {
+      "name": "Bérengère “Toxine” la féroce",
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/e6440672-4dbd-4b66-af16-1fb5a50f7b83'>LINK</a>",
+      "notes": "French Deck. 	Overlord Greking / Uxlyx the Zookeeper / x2 exhume / The Sting / Destroy Them All!",
+      "id": "e6440672-4dbd-4b66-af16-1fb5a50f7b83",
+      "tier": "2"
+    },
+    {
       "name": "Elder Masha Jagusop",
       "archetype": "CONTROL",
       "link": "<a href='https://www.keyforgegame.com/deck-details/949f12af-a356-48b5-b759-1843682ae3d4'>LINK</a>",
@@ -759,6 +775,14 @@ var data =
       "link": "<a href='https://www.keyforgegame.com/deck-details/5019da19-e6b5-4fbf-862a-53beaad0d8c9'>LINK</a>",
       "notes": "Doorstep / Untamed-Ambassador / Keycharge",
       "id": "5019da19-e6b5-4fbf-862a-53beaad0d8c9",
+      "tier": "2"
+    },
+    {
+      "name": "The Opinionated Combatant",
+      "archetype": "MID",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/adfa0943-0604-438e-bd93-1fd2f5c50e9f'>LINK</a>",
+      "notes": "x2 Miasma / Helper Bot / Exhume / Unlocked Gateway / 	Too Much to Protect",
+      "id": "adfa0943-0604-438e-bd93-1fd2f5c50e9f",
       "tier": "2"
     },
     {
@@ -895,7 +919,23 @@ var data =
       "archetype": "RUSH",
       "link": "<a href='https://www.keyforgegame.com/deck-details/728ea74f-ea8a-4229-ae3b-517651b1b12d'>LINK</a>",
       "notes": `Fertility Chant / x3 Hunting Witch / Witch of the Eye / Bear Flute / only 1 bear (recursion) / Mimicry / x2 Neuro Syphon`,
-      "id": "https://www.keyforgegame.com/deck-details/728ea74f-ea8a-4229-ae3b-517651b1b12d",
+      "id": "728ea74f-ea8a-4229-ae3b-517651b1b12d",
+      "tier": "3"
+    },
+    {
+      "name": 'Margrave Niccolo Vanicara',
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/0916c4de-bbb0-4e36-8828-4a30b42afe8e'>LINK</a>",
+      "notes": `BRIG/ Tons of Archiving`,
+      "id": "0916c4de-bbb0-4e36-8828-4a30b42afe8e",
+      "tier": "3"
+    },
+    {
+      "name": 'The Insidious Bureaucrat',
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/b9ac07b0-ff70-4927-952c-4cc870bd8d3a'>LINK</a>",
+      "notes": `A Fair Game / Control the Weak / x3 Glorious Few / Phase Shift`,
+      "id": "b9ac07b0-ff70-4927-952c-4cc870bd8d3a",
       "tier": "3"
     },
 
