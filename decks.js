@@ -503,6 +503,14 @@ var data =
       "tier": "2"
     },
     {
+      "name": "Average “Stella” Flash",
+      "archetype": "COMBO",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/55560060-265c-4333-9514-7c646587e580'>LINK</a>",
+      "notes": "	x3 Ganymede Archivist / Crystal Hive / Combat Pheromones / Key Abduction / x3 Dodger / Oubliette",
+      "id": "55560060-265c-4333-9514-7c646587e580",
+      "tier": "2"
+    },
+    {
       "name": "Ming Yezzion from the Recluse's Outlands",
       "archetype": "RUSH",
       "link": "<a href='https://www.keyforgegame.com/deck-details/e15d067e-1c9e-4a9d-ba9f-f1f2def10544'>LINK</a>",
@@ -783,6 +791,14 @@ var data =
       "link": "<a href='https://www.keyforgegame.com/deck-details/adfa0943-0604-438e-bd93-1fd2f5c50e9f'>LINK</a>",
       "notes": "x2 Miasma / Helper Bot / Exhume / Unlocked Gateway / 	Too Much to Protect",
       "id": "adfa0943-0604-438e-bd93-1fd2f5c50e9f",
+      "tier": "2"
+    },
+    {
+      "name": "M. Zoom, Quanbury's Savvy Alchemist",
+      "archetype": "CONTROL",
+      "link": "<a href='https://www.keyforgegame.com/deck-details/c683e996-47e8-44f4-9992-7325adeffcf0'>LINK</a>",
+      "notes": "x2 Evasion Sigil / Speed Sigil /	Veylan Analyst / x2 skeleton key / Gateway to Dis / x2 Dust Imp / Arise!",
+      "id": "c683e996-47e8-44f4-9992-7325adeffcf0",
       "tier": "2"
     },
     {
