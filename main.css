@@ -100,7 +100,7 @@ box-sizing: border-box;
 
 /* a main content div for just the landing page that utilizes background image */
 .landingpage {
-background: url('./img/Artboard1GameShelf_land.jpg');
+background: url('./img/landing-000.jpg');
 background-repeat: repeat-y;
 background-size: cover;
 }
